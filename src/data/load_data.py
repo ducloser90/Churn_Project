@@ -20,7 +20,7 @@ def load_csv(csv_path: str) -> pd.DataFrame:
     if not data_file.exists():
         raise FileNotFoundError(f"File not found: {csv_path}")
 
-    return pd.read_csv(data_file)
+    return pd.read_csv(data_file, na_values=[" ", ""])
 
 
 if __name__ == "__main__":
