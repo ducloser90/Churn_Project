@@ -11,3 +11,8 @@ mlruns/
 **/mlruns/
 *.db
 *.sqlite
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
