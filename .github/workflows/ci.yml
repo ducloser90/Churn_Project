@@ -31,4 +31,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: yourusername/churn-app:latest
+          tags: duclo90/churn-app:latest
