@@ -1,0 +1,33 @@
+# Virtual environments
+.venv/
+
+# Python cache & build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Git & OS metadata
+.git/
+.gitignore
+.DS_Store
+
+# Data folder (preserves src/data/)
+/data/
+
+# MLflow tracking data & DB
+mlruns/
+mlflow.db
+
+# Exploratory notebooks
+notebooks/
+
+# Docker build files
+Dockerfile
+dockerfile
+.dockerignore
+docker-compose*.yml
+
+# Documentation
+README.md
